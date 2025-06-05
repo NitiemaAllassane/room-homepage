@@ -1,59 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Room homepage</title>
+    <title>Frontend Mentor | Room homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
 </head>
+
+
 <body>
-  Home
-  Shop
-  About
-  Contact
+    <!-- Mobile Navigation -->
+    <!-- <nav class="mobileNav">
+        <div class="container mobileNav__container">
+            <div class="logo">
+                <img src="/images/logo.svg" alt="room's logo">
+            </div>
+            <ul class="mobileNav__links">
+                <li class="mobileNav__item"><a href="/">Home</a></li>
+                <li class="mobileNav__item"><a href="/">Shop</a></li>
+                <li class="mobileNav__item"><a href="/">About</a></li>
+                <li class="mobileNav__item"><a href="/">Contact</a></li>
+            </ul>
+        </div>
+    </nav> -->
 
-  Discover innovative ways to decorate
 
-  We provide unmatched quality, comfort, and style for property owners across the country. 
-  Our experts combine form and function in bringing your vision to life. Create a room in your 
-  own style with our collection and make your property a reflection of you and what you love.
+    <main>
+        <!-- top section -->
+        <section class="room">
 
-  Shop now
+            <!-- Home section -->
+            <section class="home">
+                <header class="header">
+                    <div class="container header__container">
+                        <!-- <button class="menuButton" aria-label="Show The Menu">
+                            <img src="/images/icon-hamburger.svg" alt="Hamburder Icon">
+                        </button> -->
+                        <div class="logo">
+                            <img src="/images/logo.svg" alt="room's logo">
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="header__nav-items">
+                                <li class="header__nav-item"><a href="/" class="header__nav-link header__nav-link--hover" aria-current="page">Home</a></li>
+                                <li class="header__nav-item"><a href="/" class="header__nav-link header__nav-link--hover">Shop</a></li>
+                                <li class="header__nav-item"><a href="/" class="header__nav-link header__nav-link--hover">About</a></li>
+                                <li class="header__nav-item"><a href="/" class="header__nav-link header__nav-link--hover">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
 
-  We are available all across the globe
+                <figure class="carousel">
+                    <div class="carousel__images">
+                        <picture class="carosel__image">
+                            <source media="(min-width: 48rem)" srcset="/images/desktop-image-hero-1.jpg">
+                            <img src="/images/mobile-image-hero-1.jpg" alt="" aria-hidden="true">
+                        </picture>
+                        <picture class="carousel__image">
+                            <source media="(min-width: 48rem)" srcset="/images/desktop-image-hero-2.jpg">
+                            <img src="/images/mobile-image-hero-2.jpg" alt="" aria-hidden="true">
+                        </picture>
+                        <picture class="carousel__image">
+                            <source media="(min-width: 48rem)" srcset="/images/desktop-image-hero-3.jpg">
+                            <img src="/images/mobile-image-hero-3.jpg" alt="" aria-hidden="true">
+                        </picture>
+                    </div>
+                </figure>
+            </section>
 
-  With stores all over the world, it's easy for you to find furniture for your home or place of business. 
-  Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
-  store locator. Any questions? Don't hesitate to contact us today.
+            <!-- Descriptions section -->
+            <section class="information">
+                <div class="information__content">
+                    <!-- info 1 -->
+                    <article class="information__item">
+                        <div class="container information__container">
+                            <h1>Discover innovative ways to decorate</h1>
+                            <p>
+                                We provide unmatched quality, comfort, and style for property owners across the country. 
+                                Our experts combine form and function in bringing your vision to life. Create a room in your 
+                                own style with our collection and make your property a reflection of you and what you love.
+                            </p>
+                            <a href="/" class="information__item-link information__item-link--hover">
+                                Shop Now
+                                <img src="/images/icon-arrow.svg" alt="" aria-hidden="true">
+                            </a>
+                        </div>
+                    </article>
 
-  Shop now
+                    <!-- info 2 -->
+                    <article class="information__item">
+                        <div class="container information__container">
+                            <h1>We are available all across the globe</h1>
+                            <p>
+                                With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+                                Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+                                store locator. Any questions? Don't hesitate to contact us today.
+                            </p>
+                            <a href="/" class="information__item-link information__item-link--hover">
+                                Shop Now
+                                <img src="/images/icon-arrow.svg" alt="" aria-hidden="true">
+                            </a>
+                        </div>
+                    </article>
+                    <!-- info 3 -->
+                    <article class="information__item">
+                        <div class="container information__container">
+                            <h1>Manufactured with the best materials</h1>
+                            <p>
+                                Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+                                to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+                                experience in this industry, we understand what customers want for their home and office.
 
-  Manufactured with the best materials
+                            </p>
+                            <a href="/" class="information__item-link information__item-link--hover">
+                                Shop Now
+                                <img src="/images/icon-arrow.svg" alt="" aria-hidden="true">
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </section>
 
-  Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
-  to ensure that every product is made as perfect and as consistent as possible. With three decades of 
-  experience in this industry, we understand what customers want for their home and office.
+            <!-- Carousel Button -->
+            <div class="carouselBtn">
+                <button class="carouselBtn__left" aria-label="Scroll left">
+                    <img src="/images/icon-angle-left.svg" alt="" aria-hidden="true">
+                </button>
+                <button class="carouselBtn__right" aria-label="Scroll right">
+                    <img src="/images/icon-angle-right.svg" alt="" aria-hidden="true">
+                </button>
+            </div>
+        </section>
 
-  Shop now
 
-  About our furniture
-
-  Our multifunctional collection blends design and function to suit your individual taste.
-  Make each room unique, or pick a cohesive theme that best express your interests and what
-  inspires you. Find the furniture pieces you need, from traditional to contemporary styles
-  or anything in between. Product specialists are available to help you create your dream space.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <!-- section About -->
+         <section class="about">
+            <figure class="about__image">
+                <img src="/images/image-about-dark.jpg" alt="">
+            </figure>
+            <article class="about__description">
+                <div class="about__description-content">
+                    <h2 class="about__description-title">About our furniture</h2>
+                    <p class="about__description-text">
+                        Our multifunctional collection blends design and function to suit your individual taste.
+                        Make each room unique, or pick a cohesive theme that best express your interests and what
+                        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+                        or anything in between. Product specialists are available to help you create your dream space.
+                    </p>
+                </div>
+            </article>
+            <figure class="about__image">
+                <img src="/images/image-about-light.jpg" alt="">
+            </figure>
+         </section>
+    </main>
+    
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Nitiema Allassane</a>.
+    </footer>
 </body>
 </html>
