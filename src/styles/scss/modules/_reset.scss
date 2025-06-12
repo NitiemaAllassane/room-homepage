@@ -1,0 +1,113 @@
+/* ==========================================================================
+   RESET CSS MODERNE - Modern CSS Reset
+   ========================================================================== */
+
+
+
+/* 1.Remove default spacing + use border-box for consistent sizing */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* 2. Prevent automatic text resizing on mobile browsers */
+
+html {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+
+
+/* 3. Base body settings: min height and readable line spacing */
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+
+/* 4. Remove bottom margin spacing from common elements */
+
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+
+/* 5. Better headline balance on multiple lines */
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+/* 6. Consistent line height for headers and form elements */
+
+h1, h2, h3, h4,
+input, label, button {
+  line-height: 1.1;
+}
+
+/* 7. Inherit font and size in form controls */
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* 8. Textarea default height if rows not set */
+
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+
+/* 9. Unclassed links: inherit color, auto underline skip */
+
+a:not([class]) {
+  color: currentColor;
+  text-decoration-skip-ink: auto;
+}
+
+/* 10. Force word breaking on long content */
+
+p,
+h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 11. Nicer paragraph wrapping behavior */
+
+p {
+  text-wrap: pretty;
+}
+
+
+/* 12. Media elements: responsive by default */
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+
+/* 13. Smooth offset when scrolling to anchors */
+
+:target {
+  scroll-margin-block: 5ex;
+}
