@@ -30,14 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](/design/desktop-design-slide-1.jpg)
-![](/design/desktop-design-slide-2.jpg)
-![](/design/desktop-design-slide-3.jpg)
+![](/room_screenshot.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/room-homepage-DHShg_VLj6](https://www.frontendmentor.io/solutions/room-homepage-DHShg_VLj6)
+- Live Site URL: [https://room-homepage-pi-dun.vercel.app/](https://room-homepage-pi-dun.vercel.app/)
 
 ## My process
 
@@ -49,29 +48,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-
-
-### Continued development
 
 
 ### Useful resources
